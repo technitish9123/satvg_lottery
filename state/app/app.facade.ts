@@ -1,4 +1,4 @@
-import { useAppDispatch, useAppSelector } from 'state';
+import { useAppDispatch, useAppSelector } from '../../state';
 
 export const useAppFacade = () => {
   const dispatch = useAppDispatch();

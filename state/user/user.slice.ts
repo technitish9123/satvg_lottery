@@ -14,18 +14,6 @@ export interface IUserState {
   theme: 'dark' | 'light';
 }
 
-// const cachedState = JSON.parse(
-//   window.localStorage ? localStorage.getItem('libre-cache') || '' : ''
-// );
-// const cachedChain =
-//   cachedState.chain &&
-//   (cachedState.chain === 'BSC' ||
-//     cachedState.chain === 'POLY' ||
-//     cachedState.chain === 'AVAX')
-//     ? cachedState.chain
-//     : 'POLY';
-// const cachedChainId =
-//   CHAINS[cachedChain].chainIds[process.env.NEXT_PUBLIC_ENV ?? 'dev'];
 
 const initialState: IUserState = {
   address: '',

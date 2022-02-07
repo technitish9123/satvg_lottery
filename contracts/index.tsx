@@ -1,0 +1,1 @@
+export * as TokenContract from './token';
