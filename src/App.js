@@ -1,4 +1,5 @@
 import HomePage from "./Components/HomePage/HomePage";
+ import Lottery from "./Components/Lottery/Lottery";
 import { BrowserRouter as Router ,Switch, Route} from 'react-router-dom';
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
    <Router>
      <Switch>
      <Route exact path="/" component={HomePage} />
-     
+     <Route exact path='/lottery' component={Lottery} />
      </Switch>
    </Router>
     </div>
